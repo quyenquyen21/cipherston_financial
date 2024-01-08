@@ -1,0 +1,48 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align item to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+/* Smart phone */
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 110px;
+  }
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+  #contact {
+    display: block;
+  }
+  #contact .map {
+    height: 100vh;
+
+    border-top: 4px solid #333;
+  }
+}
